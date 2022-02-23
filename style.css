@@ -43,11 +43,13 @@ html, body{
 }
 
 .explore_slideshow h1{
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 600;
 
   color: #dde1e7;
   text-shadow: -2px -2px 4px #ffffffc7, 1px 1px 3px rgba(94, 104, 121, 0.308);
+
+  text-align: center;
 }
 
 .container .project_view{
@@ -71,15 +73,39 @@ html, body{
   display: flex;
   justify-content: center;
   align-items: center;
+
+  float: left;
 }
 
 .my_music:hover{
   box-shadow: inset -4px -4px 8px #ffffffc7, inset 3px 3px 6px rgba(94, 104, 121, 0.288);
 }
 
-.my_music h1{
-  font-size: 3em;
-  color: #dde1e7;
-  text-shadow: -1px -1px 2px #ffffff, 1px 1px 2px rgba(94, 104, 121, 0.356);
-  text-align: center;
+.my_music ion-icon{
+    color: #595959;
+    width: 140px;
+    height: 140px;
 }
+
+.project_view .my_calculator{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: -4px -4px 8px #ffffffc7, 3px 3px 6px rgba(94, 104, 121, 0.288);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    float: right;
+  }
+  
+  .my_calculator:hover{
+    box-shadow: inset -4px -4px 8px #ffffffc7, inset 3px 3px 6px rgba(94, 104, 121, 0.288);
+  }
+  
+  .my_calculator ion-icon{
+    color: #595959;
+    width: 140px;
+    height: 140px;
+  }
